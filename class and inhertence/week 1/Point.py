@@ -5,7 +5,7 @@ class Point():
     def getPoint(self):
         return (self.x, self.y)
     def __str__(self):
-        return "Point{}{}".format(self.x,self.y)
+        return "Point ({} {})".format(self.x,self.y)
 
 point1 = Point(20,57)
 point2 = Point(56,28)
