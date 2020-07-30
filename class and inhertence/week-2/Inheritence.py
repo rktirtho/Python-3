@@ -8,3 +8,5 @@ class Person():
 class Student(Person):
     def __init(self, name, birth_year):
         Person.__init__(self, name,birth_year)
+
+    
