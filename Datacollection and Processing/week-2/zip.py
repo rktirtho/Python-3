@@ -4,6 +4,3 @@ city = ['Machigan', 'Washington', 'New york', 'Virginia', 'Los Angles', 'Atlanta
 
 
 persons = list(zip(names, age, city))
-
-n ,a,c = [m for m in persons]
-print(n)
