@@ -15,3 +15,7 @@ print(type(response))
 
 res = json.dumps(response, indent=2)
 print(type(res))
+
+query = {'q':'query value', 'q1':'query value'} # Query set in a dictionary
+
+resp = requests.get('ulr',query) # put query in get method
